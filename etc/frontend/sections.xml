@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Customer:etc/sections.xsd">
+    <!-- Refresh sections following Magento_Wishlist module -->
+    <action name="wishlist/index/index">
+        <section name="wish"/>
+    </action>
+    <action name="wishlist/index/add">
+        <section name="wish"/>
+    </action>
+    <action name="wishlist/index/remove">
+        <section name="wish"/>
+    </action>
+    <action name="wishlist/index/updateItemOptions">
+        <section name="wish"/>
+    </action>
+    <action name="wishlist/index/update">
+        <section name="wish"/>
+    </action>
+    <action name="wishlist/index/cart">
+        <section name="wish" />
+    </action>
+    <action name="wishlist/index/fromcart">
+        <section name="wish" />
+    </action>
+    <action name="wishlist/index/allcart">
+        <section name="wish" />
+    </action>
+    <action name="wishlist/shared/allcart">
+        <section name="wish" />
+    </action>
+    <action name="wishlist/shared/cart">
+        <section name="wish" />
+    </action>
+    <!-- /End of Refresh sections following Magento_Wishlist module -->
+    <!-- Refresh sections following Magento_MultipleWishlist module -->
+    <action name="wishlist/index/copyitem">
+        <section name="wish" />
+    </action>
+    <action name="wishlist/index/copyitems">
+        <section name="wish" />
+    </action>
+    <action name="wishlist/index/deletewishlist">
+        <section name="wish" />
+    </action>
+    <action name="wishlist/index/moveitem">
+        <section name="wish" />
+    </action>
+    <action name="wishlist/index/moveitems">
+        <section name="wish" />
+    </action>
+    <action name="wishlist/search/addtocart">
+        <section name="wish" />
+    </action>
+    <!-- /End of Refresh sections following Magento_MultipleWishlist module -->
+    <!-- Refresh sections following Magento_Customer module -->
+    <action name="customer/account/logout">
+        <section name="wish"/>
+    </action>
+    <action name="customer/account/loginPost">
+        <section name="wish"/>
+    </action>
+    <action name="customer/account/createPost">
+        <section name="wish"/>
+    </action>
+    <action name="customer/ajax/login">
+        <section name="wish" />
+        <section name="wishlist" />
+    </action>
+    <!-- /End of Refresh sections following Magento_Customer module -->
+    <!-- Refresh Gene_Wishlist sections -->
+    <action name="wish/item/remove">
+        <section name="wish"/>
+        <section name="wishlist" />
+    </action>
+    <action name="wish/item/add">
+        <section name="wish"/>
+        <section name="wishlist" />
+    </action>
+    <!-- /End of Refresh Gene_Wishlist sections -->
+</config>
